@@ -1,1 +1,8 @@
 # TicTacToe-JAVA
+I developed a basic console-based Tic-Tac-Toe game using Java, which allows two players to play the game alternately. The purpose of this project was to demonstrate my knowledge of Java's core programming concepts, such as loops, conditionals, arrays, and functions. The game is played on a 3x3 grid, with players taking turns to mark their move on the board, either as 'X' or 'O'. The first player to get three of their marks in a row (horizontally, vertically, or diagonally) wins, and the game ends in a draw if all positions are filled without a winner.
+
+The game starts by displaying the grid, where each position is represented by a number from 1 to 9. This number indicates where the player can place their mark. The current player is prompted to input a number, which corresponds to the position on the board. After each move, the program checks for a winner by scanning all rows, columns, and diagonals. If a player successfully aligns three of their marks, the game announces the winner. If the board is filled without any player winning, the game ends in a draw.
+
+One of the challenges I encountered while coding this was ensuring that the players could only select valid positions (unoccupied spaces). I solved this by adding checks that prevent a player from placing a mark in an already occupied cell. I also implemented a function that switches between players after each valid move, making the game fair and balanced.
+
+This project helped me reinforce my understanding of how to apply basic programming techniques in Java, including working with arrays, using loops effectively, and handling user inputs. By working on this, I enhanced my problem-solving abilities and gained confidence in writing efficient code.
